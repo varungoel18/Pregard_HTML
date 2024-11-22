@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <form action="/login">
+    <div>
+    <label for="email">Email</label>
+    <input type="email" placeholder="Email" id="email">
+    </div>
+    <div>
+    <label for="password">Password</label>
+    <input type="password" placeholder="password" id="password" required>
+    </div>
+    <button type="submit">Submit</button>
+    </form>
+    <form action="/about">
+    <label for="number">Add a Number</label>
+    <input type="number" id="number">
+    <label for="URL"> ADD A url</label>
+    <input type="url" id="URL">
+    <button type="submit">Submit</button>
+    </form>
+
+    <textarea rows="5" cols="10"></textarea>
+    <div>
+    <label for="subscribe">Subscribe the Channel</label>
+    <input type="checkbox" id="subscribe" name="subscribe" checked>
+    </div>
+
+    <div>
+        <label for="range">Enter the range</label>
+        0<input type="range" min="0" max="5" name="specifier" value="1" step="1" id="range">5 
+    </div>
+
+    <div>
+        <select name="levels" id="level">
+            <option>Begineer level</option>
+            <option selected>Intermediate level</option>
+            <option>Professional level</option>
+        </select>
+
+        <div>
+            <label for="small">Small</label>
+            <input type="radio" id="small" name="size"/>
+            <label for="big">Big</label>
+            <input type="radio" id="big" name="size1"/>
+            <label for="tall">Tall</label>
+            <input type="radio" id="tall" name="size"/>
+        </div>
+    </div>
+
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Demo</title>
+    <style>
+        table , th , td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h2>IMDB Ratings</h2>
+    <table>
+        <caption>IMDB Ratings</caption>
+        <thead>
+        <tr>
+            <th>Film</th>
+            <th>Ratings</th>
+            <th>Year</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Social</td>
+            <td>9.2</td>
+            <td>2011</td>
+        </tr>
+        <tr>
+            <td>Founder</td>
+            <td>9.0</td>
+            <td>2002</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Titans</td>
+            <td colspan="2">8.9</td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
